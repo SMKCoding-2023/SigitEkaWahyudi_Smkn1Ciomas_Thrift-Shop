@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const props = defineProps({
 product: {
-type: Object,
-default: {},
-}
+    type: Object,
+    default: {},
+    }
 })
 </script>
 
