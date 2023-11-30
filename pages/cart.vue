@@ -3,6 +3,11 @@ import type { Products } from '../types/products';
 import { ref } from "vue";
 import { computed } from "vue";
 import { onMounted } from "vue";
+
+definePageMeta({
+middleware: ["user-access"]
+});
+
 const removeCart = (id: number) => {
     products.value = products.value.filter((item) => item.id !== id);
     localStorage.setItem("products", JSON.stringify(products.value));

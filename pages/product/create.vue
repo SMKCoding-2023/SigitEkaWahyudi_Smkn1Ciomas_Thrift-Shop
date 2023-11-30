@@ -76,8 +76,6 @@ const uploadFile = async (formFile: any) => {
 }
 </script>
 
-
-
 <template>
   <section class="flex justify-center py-10">
     <div class="w-[500px]">

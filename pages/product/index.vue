@@ -2,6 +2,10 @@
 import { useProductsStore } from "../../stores/products";
 import { ref } from 'vue';
 
+definePageMeta({
+middleware: ["user-access"]
+});
+
 const productStore = useProductsStore();
 const allProducts = ref([]);
 
