@@ -2,7 +2,7 @@
     <div>
       <div class="main-content">
         <section class="hero">
-          <h1 class="title">Selamat datang guys</h1>
+          <h1 class="title">Selamat datang </h1>
         </section>
   
         <section class="features">
@@ -32,12 +32,6 @@
   </template>
   
   <style scoped>
-  .main-content {
-    background-image: url(../public/images/cool-background.png);
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 115px;
-  }
   
   .hero {
     text-align: center;
